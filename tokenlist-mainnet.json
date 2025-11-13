@@ -4,7 +4,7 @@
     "keywords": [
         "monad mainnet"
     ],
-    "timestamp": "2025-11-13T10:45:16.910063+00:00",
+    "timestamp": "2025-11-13T17:00:35.529444+00:00",
     "tokens": [
         {
             "chainId": 143,
@@ -61,6 +61,30 @@
             "symbol": "XAUt0",
             "decimals": 6,
             "logoURI": "https://resources.cryptocompare.com/asset-management/20126/1751464669093.png"
+        },
+        {
+            "chainId": 143,
+            "address": "0xe85411C030fB32A9D8b14Bbbc6CB19417391F711",
+            "name": "Sumerian BTC",
+            "symbol": "suBTC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/meterio/token-list/master/data/suBTC/logo.png"
+        },
+        {
+            "chainId": 143,
+            "address": "0x1c22531AA9747d76fFF8F0A43b37954ca67d28e0",
+            "name": "Sumerian ETH",
+            "symbol": "suETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/meterio/token-list/master/data/suETH/logo.png"
+        },
+        {
+            "chainId": 143,
+            "address": "0x8BF591Eae535f93a242D5A954d3Cde648b48A5A8",
+            "name": "Sumerian USD",
+            "symbol": "suUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/meterio/token-list/master/data/suUSD/logo.png"
         }
     ],
     "version": {
