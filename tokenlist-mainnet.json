@@ -4,7 +4,7 @@
     "keywords": [
         "monad mainnet"
     ],
-    "timestamp": "2025-11-20T10:27:58.075361+00:00",
+    "timestamp": "2025-11-21T09:13:52.102090+00:00",
     "tokens": [
         {
             "chainId": 143,
@@ -96,6 +96,14 @@
         },
         {
             "chainId": 143,
+            "address": "0x1ce060D47A0Fd08B0869748FD7eccF151F4eC5d1",
+            "name": "ShMonad",
+            "symbol": "shMON",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/shMON/logo.png"
+        },
+        {
+            "chainId": 143,
             "address": "0xe85411C030fB32A9D8b14Bbbc6CB19417391F711",
             "name": "Sumerian BTC",
             "symbol": "suBTC",
@@ -129,7 +137,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 10,
+        "minor": 11,
         "patch": 0
     }
 }
