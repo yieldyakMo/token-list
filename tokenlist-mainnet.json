@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-11-21T23:29:03.747104+00:00",
+  "timestamp": "2025-11-22T16:38:54.784262+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -88,6 +88,14 @@
     },
     {
       "chainId": 143,
+      "address": "0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081",
+      "name": "gMON",
+      "symbol": "gMON",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/gMON/logo.svg"
+    },
+    {
+      "chainId": 143,
       "address": "0xA3227C5969757783154C60bF0bC1944180ed81B9",
       "name": "Kintsu Staked Monad",
       "symbol": "sMON",
@@ -137,7 +145,7 @@
   ],
   "version": {
     "major": 2,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   }
 }
