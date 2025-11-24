@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-11-24T12:20:58.966916+00:00",
+  "timestamp": "2025-11-24T12:36:14.955549+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -56,6 +56,17 @@
         "coinGeckoId": "folks"
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/FOLKS/logo.svg"
+    },
+    {
+      "chainId": 143,
+      "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+      "name": "IDRX",
+      "symbol": "IDRX",
+      "decimals": 2,
+      "extensions": {
+        "coinGeckoId": "idrx"
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/IDRX/logo.svg"
     },
     {
       "chainId": 143,
@@ -291,7 +302,7 @@
   ],
   "version": {
     "major": 2,
-    "minor": 12,
+    "minor": 13,
     "patch": 0
   }
 }
