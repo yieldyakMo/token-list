@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-11-25T11:47:21.876362+00:00",
+  "timestamp": "2025-11-26T15:24:03.160111+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -183,6 +183,9 @@
       "name": "Wrapped MON",
       "symbol": "WMON",
       "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "wrapped-monad"
+      },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/WMON/logo.svg"
     },
     {
@@ -311,6 +314,6 @@
   "version": {
     "major": 2,
     "minor": 14,
-    "patch": 1
+    "patch": 2
   }
 }
