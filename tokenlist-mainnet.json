@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-12-01T12:56:20.045724+00:00",
+  "timestamp": "2025-12-02T10:31:55.759121+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -140,6 +140,9 @@
       "name": "World Liberty Financial USD",
       "symbol": "USD1",
       "decimals": 6,
+      "extensions": {
+        "coinGeckoId": "usd1-wlfi"
+      },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/USD1/logo.svg"
     },
     {
@@ -260,6 +263,9 @@
       "name": "pufETH",
       "symbol": "pufETH",
       "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "pufeth"
+      },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/pufETH/logo.png"
     },
     {
@@ -276,6 +282,9 @@
       "name": "Kintsu Staked Monad",
       "symbol": "sMON",
       "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "kintsu-staked-monad"
+      },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/sMON/logo.svg"
     },
     {
@@ -284,6 +293,9 @@
       "name": "ShMonad",
       "symbol": "shMON",
       "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "shmonad"
+      },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/shMON/logo.png"
     },
     {
@@ -336,6 +348,6 @@
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 0
+    "patch": 1
   }
 }
