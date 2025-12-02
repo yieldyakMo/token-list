@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-12-02T10:31:55.759121+00:00",
+  "timestamp": "2025-12-02T23:15:52.130775+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -240,6 +240,17 @@
     },
     {
       "chainId": 143,
+      "address": "0x9c82eB49B51F7Dc61e22Ff347931CA32aDc6cd90",
+      "name": "Locked AZND",
+      "symbol": "loAZND",
+      "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "mu-digital-locked-aznd"
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/loAZND/logo.svg"
+    },
+    {
+      "chainId": 143,
       "address": "0x1D4795A4670033f47f572b910553be0295077b51",
       "name": "mcMON",
       "symbol": "mcMON",
@@ -347,7 +358,7 @@
   ],
   "version": {
     "major": 2,
-    "minor": 16,
-    "patch": 1
+    "minor": 17,
+    "patch": 0
   }
 }
