@@ -116,7 +116,11 @@ The `data.json` file contains the following fields:
   "symbol": "TKN",
   "decimals": 18,
   "extensions": {
-    "coinGeckoId": "token-id"
+    "coinGeckoId": "token-id",
+    "bridgeInfo": {
+      "protocol": "bridge-protocol",
+      "bridgeAddress": "0xTokenBridgeAddress"
+    }
   }
 }
 ```
@@ -133,6 +137,7 @@ The `data.json` file contains the following fields:
 
 - `extensions`: Additional metadata about the token
   - `coinGeckoId`: The CoinGecko API ID for the token (if listed on CoinGecko)
+  - `bridgeInfo`: Bridge information for bridged tokens
 
 ## Important Notes
 

@@ -26,6 +26,14 @@ DATA_DIR = "mainnet"
 REQUIRED_FIELDS = ["chainId", "address", "name", "symbol", "decimals"]
 ALLOWED_EXTENSIONS = {
     "coinGeckoId": str,
+    "bridgeInfo": dict,
+}
+VALID_BRIDGE_PROTOCOLS = {
+    "Chainlink CCIP",
+    "Circle CCTP",
+    "LayerZero OFT",
+    "Wormhole",
+    "Wormhole NTT",
 }
 EXPECTED_CHAIN_ID = 143
 MIN_DECIMALS = 0
@@ -73,6 +81,52 @@ def is_valid_address(address: str) -> bool:
         bool: True if the address is valid, False otherwise.
     """
     return bool(re.match(r"^0x[0-9A-Fa-f]{40}$", address))
+
+
+def validate_bridge_info(bridge_info: dict[str, Any]) -> list[str]:
+    """Validate the bridgeInfo extension.
+
+    Args:
+        bridge_info: The bridgeInfo dictionary to validate.
+
+    Returns:
+        list[str]: List of error messages. Empty list if validation passes.
+    """
+    errors = []
+    allowed_fields = {"protocol", "bridgeAddress"}
+    actual_fields = set(bridge_info.keys())
+
+    unknown_fields = actual_fields - allowed_fields
+    if unknown_fields:
+        errors.append(f"Unknown fields in bridgeInfo: {', '.join(unknown_fields)}")
+
+    if "protocol" not in bridge_info:
+        errors.append("Missing required field 'protocol' in bridgeInfo")
+    else:
+        protocol = bridge_info["protocol"]
+        if not isinstance(protocol, str):
+            errors.append(
+                f"Invalid type for bridgeInfo.protocol: expected str, got {type(protocol).__name__}"
+            )
+        elif protocol not in VALID_BRIDGE_PROTOCOLS:
+            valid_protocols = ", ".join(sorted(VALID_BRIDGE_PROTOCOLS))
+            errors.append(
+                f"Invalid bridgeInfo.protocol: '{protocol}'. Must be one of: {valid_protocols}"
+            )
+
+    if "bridgeAddress" not in bridge_info:
+        errors.append("Missing required field 'bridgeAddress' in bridgeInfo")
+    else:
+        bridge_address = bridge_info["bridgeAddress"]
+        if not isinstance(bridge_address, str):
+            errors.append(
+                "Invalid type for bridgeInfo.bridgeAddress: expected str, "
+                f"got {type(bridge_address).__name__}"
+            )
+        elif not is_valid_address(bridge_address):
+            errors.append(f"Invalid bridgeInfo.bridgeAddress address: {bridge_address}")
+
+    return errors
 
 
 def validate_token_data(
@@ -151,6 +205,9 @@ def validate_token_data(
                             f"Invalid type for extension '{tag}': expected {type_name}, "
                             f"got {type(value).__name__}"
                         )
+                    elif tag == "bridgeInfo":
+                        bridge_errors = validate_bridge_info(value)
+                        errors.extend(bridge_errors)
                 else:
                     errors.append(f"Invalid extension tag: {tag}. Allowed tags are: {allowed_tags}")
 

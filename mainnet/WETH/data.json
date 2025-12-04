@@ -5,6 +5,10 @@
   "symbol": "WETH",
   "decimals": 18,
   "extensions": {
-    "coinGeckoId": "weth"
+    "coinGeckoId": "weth",
+    "bridgeInfo": {
+      "protocol": "Wormhole NTT",
+      "bridgeAddress": "0x92957b3D0CaB3eA7110fEd1ccc4eF564981a59Fc"
+    }
   }
 }
