@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-12-02T23:15:52.130775+00:00",
+  "timestamp": "2025-12-05T15:30:23.757865+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -84,7 +84,11 @@
       "symbol": "LBTC",
       "decimals": 8,
       "extensions": {
-        "coinGeckoId": "lombard-staked-btc"
+        "coinGeckoId": "lombard-staked-btc",
+        "bridgeInfo": {
+          "protocol": "Chainlink CCIP",
+          "bridgeAddress": "0x33566fE5976AAa420F3d5C64996641Fc3858CaDB"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/LBTC/logo.svg"
     },
@@ -130,7 +134,11 @@
       "symbol": "SOL",
       "decimals": 9,
       "extensions": {
-        "coinGeckoId": "wrapped-solana"
+        "coinGeckoId": "wrapped-solana",
+        "bridgeInfo": {
+          "protocol": "Wormhole",
+          "bridgeAddress": "0x0B2719cdA2F10595369e6673ceA3Ee2EDFa13BA7"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/SOL/logo.svg"
     },
@@ -141,7 +149,11 @@
       "symbol": "USD1",
       "decimals": 6,
       "extensions": {
-        "coinGeckoId": "usd1-wlfi"
+        "coinGeckoId": "usd1-wlfi",
+        "bridgeInfo": {
+          "protocol": "Chainlink CCIP",
+          "bridgeAddress": "0x33566fE5976AAa420F3d5C64996641Fc3858CaDB"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/USD1/logo.svg"
     },
@@ -152,7 +164,11 @@
       "symbol": "USDC",
       "decimals": 6,
       "extensions": {
-        "coinGeckoId": "usd-coin"
+        "coinGeckoId": "usd-coin",
+        "bridgeInfo": {
+          "protocol": "Circle CCTP",
+          "bridgeAddress": "0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/USDC/logo.svg"
     },
@@ -163,7 +179,11 @@
       "symbol": "USDT0",
       "decimals": 6,
       "extensions": {
-        "coinGeckoId": "usdt0"
+        "coinGeckoId": "usdt0",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0x9151434b16b9763660705744891fA906F660EcC5"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/USDT0/logo.svg"
     },
@@ -174,7 +194,11 @@
       "symbol": "WBTC",
       "decimals": 8,
       "extensions": {
-        "coinGeckoId": "wrapped-bitcoin"
+        "coinGeckoId": "wrapped-bitcoin",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/WBTC/logo.svg"
     },
@@ -185,7 +209,11 @@
       "symbol": "WETH",
       "decimals": 18,
       "extensions": {
-        "coinGeckoId": "weth"
+        "coinGeckoId": "weth",
+        "bridgeInfo": {
+          "protocol": "Wormhole NTT",
+          "bridgeAddress": "0x92957b3D0CaB3eA7110fEd1ccc4eF564981a59Fc"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/WETH/logo.svg"
     },
@@ -207,7 +235,11 @@
       "symbol": "XAUt0",
       "decimals": 6,
       "extensions": {
-        "coinGeckoId": "tether-gold-tokens"
+        "coinGeckoId": "tether-gold-tokens",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0x21cAef8A43163Eea865baeE23b9C2E327696A3bf"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/XAUt0/logo.svg"
     },
@@ -340,7 +372,11 @@
       "symbol": "weETH",
       "decimals": 18,
       "extensions": {
-        "coinGeckoId": "wrapped-eeth"
+        "coinGeckoId": "wrapped-eeth",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0xA3D68b74bF0528fdD07263c60d6488749044914b"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/weETH/logo.svg"
     },
@@ -351,7 +387,11 @@
       "symbol": "wstETH",
       "decimals": 18,
       "extensions": {
-        "coinGeckoId": "wrapped-steth"
+        "coinGeckoId": "wrapped-steth",
+        "bridgeInfo": {
+          "protocol": "Chainlink CCIP",
+          "bridgeAddress": "0x33566fE5976AAa420F3d5C64996641Fc3858CaDB"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/wstETH/logo.svg"
     }
@@ -359,6 +399,6 @@
   "version": {
     "major": 2,
     "minor": 17,
-    "patch": 0
+    "patch": 1
   }
 }
