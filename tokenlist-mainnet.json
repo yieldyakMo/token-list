@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-12-15T09:57:53.146218+00:00",
+  "timestamp": "2025-12-15T09:58:22.964854+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -416,6 +416,21 @@
     },
     {
       "chainId": 143,
+      "address": "0x4809010926aec940b550D34a46A52739f996D75D",
+      "name": "Wrapped Savings rUSD",
+      "symbol": "wsrUSD",
+      "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "wrapped-savings-rusd",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0x4809010926aec940b550D34a46A52739f996D75D"
+        }
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/wsrUSD/logo.svg"
+    },
+    {
+      "chainId": 143,
       "address": "0x10Aeaf63194db8d453d4D85a06E5eFE1dd0b5417",
       "name": "Wrapped liquid staked Ether 2.0",
       "symbol": "wstETH",
@@ -447,7 +462,7 @@
   ],
   "version": {
     "major": 2,
-    "minor": 19,
+    "minor": 20,
     "patch": 0
   }
 }
