@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-12-15T09:57:24.181262+00:00",
+  "timestamp": "2025-12-15T09:57:53.146218+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -156,6 +156,21 @@
         }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/SOL/logo.svg"
+    },
+    {
+      "chainId": 143,
+      "address": "0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3",
+      "name": "Solv BTC",
+      "symbol": "SolvBTC",
+      "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "solv-btc",
+        "bridgeInfo": {
+          "protocol": "Chainlink CCIP",
+          "bridgeAddress": "0x33566fE5976AAa420F3d5C64996641Fc3858CaDB"
+        }
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/SolvBTC/logo.svg"
     },
     {
       "chainId": 143,
@@ -413,11 +428,26 @@
         }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/wstETH/logo.svg"
+    },
+    {
+      "chainId": 143,
+      "address": "0xc99F5c922DAE05B6e2ff83463ce705eF7C91F077",
+      "name": "xSolvBTC",
+      "symbol": "xSolvBTC",
+      "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "solv-protocol-solvbtc-bbn",
+        "bridgeInfo": {
+          "protocol": "Chainlink CCIP",
+          "bridgeAddress": "0x33566fE5976AAa420F3d5C64996641Fc3858CaDB"
+        }
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/xSolvBTC/logo.svg"
     }
   ],
   "version": {
     "major": 2,
-    "minor": 18,
-    "patch": 1
+    "minor": 19,
+    "patch": 0
   }
 }
