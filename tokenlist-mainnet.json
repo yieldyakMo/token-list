@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-12-15T09:58:22.964854+00:00",
+  "timestamp": "2025-12-15T14:09:29.762713+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -291,6 +291,21 @@
     },
     {
       "chainId": 143,
+      "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "renzo-restaked-eth",
+        "bridgeInfo": {
+          "protocol": "Hyperlane Warp Route",
+          "bridgeAddress": "0x7A911b0bD4F067FB8DAFF734A78E7A72865100d8"
+        }
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/ezETH/logo.svg"
+    },
+    {
+      "chainId": 143,
       "address": "0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081",
       "name": "gMON",
       "symbol": "gMON",
@@ -462,7 +477,7 @@
   ],
   "version": {
     "major": 2,
-    "minor": 20,
+    "minor": 21,
     "patch": 0
   }
 }
