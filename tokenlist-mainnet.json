@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-12-17T08:39:47.445602+00:00",
+  "timestamp": "2025-12-17T15:50:20.500281+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -13,7 +13,11 @@
       "symbol": "AUSD",
       "decimals": 6,
       "extensions": {
-        "coinGeckoId": "agora-dollar"
+        "coinGeckoId": "agora-dollar",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0x9CaB7Ede13dc56652E44D2404E969C212f22689b"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/AUSD/logo.svg"
     },
@@ -34,6 +38,12 @@
       "name": "Bitcoin",
       "symbol": "BTC.b",
       "decimals": 8,
+      "extensions": {
+        "bridgeInfo": {
+          "protocol": "Chainlink CCIP",
+          "bridgeAddress": "0x33566fE5976AAa420F3d5C64996641Fc3858CaDB"
+        }
+      },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/BTC.b/logo.svg"
     },
     {
@@ -66,7 +76,11 @@
       "symbol": "EUL",
       "decimals": 18,
       "extensions": {
-        "coinGeckoId": "euler"
+        "coinGeckoId": "euler",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0x831257BFa5478111d2327e08c4068ec37Ac14B81"
+        }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/EUL/logo.svg"
     },
@@ -493,6 +507,6 @@
   "version": {
     "major": 2,
     "minor": 22,
-    "patch": 0
+    "patch": 1
   }
 }
