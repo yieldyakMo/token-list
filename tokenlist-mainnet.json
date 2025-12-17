@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-12-15T14:09:29.762713+00:00",
+  "timestamp": "2025-12-17T08:39:47.445602+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -35,6 +35,21 @@
       "symbol": "BTC.b",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/BTC.b/logo.svg"
+    },
+    {
+      "chainId": 143,
+      "address": "0xF59D81cd43f620E722E07f9Cb3f6E41B031017a3",
+      "name": "PancakeSwap Token",
+      "symbol": "Cake",
+      "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "pancakeswap-token",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0xF59D81cd43f620E722E07f9Cb3f6E41B031017a3"
+        }
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/Cake/logo.svg"
     },
     {
       "chainId": 143,
@@ -477,7 +492,7 @@
   ],
   "version": {
     "major": 2,
-    "minor": 21,
+    "minor": 22,
     "patch": 0
   }
 }
