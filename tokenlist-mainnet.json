@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2025-12-17T15:50:20.500281+00:00",
+  "timestamp": "2025-12-19T09:33:07.808077+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -120,6 +120,14 @@
         }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/LBTC/logo.svg"
+    },
+    {
+      "chainId": 143,
+      "address": "0x1001fF13bf368Aa4fa85F21043648079F00E1001",
+      "name": "LeverUp",
+      "symbol": "LV",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/LV/logo.svg"
     },
     {
       "chainId": 143,
@@ -506,7 +514,7 @@
   ],
   "version": {
     "major": 2,
-    "minor": 22,
-    "patch": 1
+    "minor": 23,
+    "patch": 0
   }
 }
